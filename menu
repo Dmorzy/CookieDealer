@@ -1,0 +1,36 @@
+.menu {
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: -30px;
+}
+
+ul ul li {
+    width: 150px;
+}
+
+.menu:hover ul {
+    display: block;
+}
